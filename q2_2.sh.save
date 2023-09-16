@@ -1,0 +1,42 @@
+#!bin/bash
+read -p "Enter First Number: " num1
+read -p "Enter Second Number: " num2
+read -p "Enter Third Number: " num3
+
+> newff.txt
+
+
+sudo adduser tom
+  484  sudo adduser bob
+  485  sudo adduser sam
+  486  sudo adduser prince
+  487  sudo groupadd dac
+  488  sudo groupadd dbda
+  489  sudo groupadd ditiss
+  490  ls -l
+  491  cd ..
+  492  ls -l
+  493  cat /etc/group
+  494  sudo usermod tom -G dac
+  495  sudo usermod bob -G dbda
+  496  sudo usermod sam -G ditiss
+  497  cat /etc/group
+  498  su prince
+  499  sudo chown tom project-1
+  500  ls -l
+  501  sudo chown dac project-2
+  502  sudo chgrp dac project-2 
+  503  ls -l
+  504  cat /etc/group
+  505  sudo usermod tom -G prince
+  506  cat /etc/group/prince
+  507  cat /etc/group/
+  508  cat /etc/group
+  509  ls -l
+  510  sudo chmod 660 project-3
+  511  ls-l
+  512  ls -l
+  513  sudo usermod prince -G dbda
+  514  cat /etc/group
+  515  ls -l
+
